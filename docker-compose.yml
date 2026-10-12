@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: ${IMAGE_NAME:-devops-build}:${IMAGE_TAG:-latest}
+    container_name: devops-build-app
+    ports:
+      - "80:80"
+    restart: always
