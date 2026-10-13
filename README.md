@@ -48,7 +48,7 @@ Developer ──push──> GitHub (dev / master)
 | `deploy.sh` | Pulls the image from Docker Hub and starts it with Compose |
 | `Jenkinsfile` | CI/CD pipeline: select repo, build, push, deploy |
 | `.dockerignore` / `.gitignore` | Keep unneeded and sensitive files out of the image and the repo |
-| `screenshots/` | Evidence screenshots |
+| `Project_3_App_Deployment_13th_Oct_2026.docx` | Documentation with all screenshots and steps |
 
 ## 1. Application and Docker
 
